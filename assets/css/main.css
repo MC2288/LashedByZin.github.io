@@ -1313,6 +1313,12 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			img {
+				height: auto;
+				max-width:50%;
+				max-height:50%;
+				}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
